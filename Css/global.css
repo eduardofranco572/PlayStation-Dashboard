@@ -1,0 +1,320 @@
+body{
+    background-color: #1A1B1F;
+    width: 100%;
+    margin: 0;
+}
+.Tudo{
+    display: flex;
+    flex-direction: row;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6rem;
+    border-right: 3px solid #212226;
+}
+.Conteiner{
+    width: 100%;
+
+}
+.logo img{
+    width: 3rem;
+    height: 3rem;
+    color: white;
+}
+
+ul, li{
+    padding: 1rem 0rem 1rem 0rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.li-menu img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.menu-dentro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 93vh;
+}
+
+.li-menu:hover{
+    background-color: #0D81EC;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 3.1rem;
+    transition: 0.5s;
+    margin-left: -0.1rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+/* botão pesquisa */
+ .Search{
+    padding: 1rem 0rem 0rem 3rem;
+} 
+#search{
+    color: #666774;
+    background-color: #232429;
+    border: none;
+    box-shadow: none; 
+    border-radius: 0rem 1rem 1rem 0rem;
+    backdrop-filter: blur(10px);
+    width: 17rem;
+    height: 2.5rem;
+    outline: 0;        
+}
+
+.buttonSearch{
+    color: #666774;
+    background-color: #232429;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    outline: 0;
+} 
+
+input::placeholder {
+    color: #666774;
+    font-weight: 600;
+}
+
+/* Option */
+
+.bloco1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.itens-opt{
+    display: flex;
+    background-color: #232429;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 3.1rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.itens-opt img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.img-conta img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 3.1rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.options{
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 14%;
+    justify-content: space-between;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    background: radial-gradient(at top, rgb(252 159 23 / 37%) -11%,#21232B,#21232B);
+    border-radius: 1rem;
+    margin: 1rem 0rem 0rem 3rem;
+    width: 48rem;
+    height: 17.3rem;
+
+
+}
+
+.titulo-banner h1{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.texts-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-next p{
+    text-align: center;
+    font-size: 15px;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #FA5353;
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
+.inter{
+    display: flex;
+    background-color: #2C2F3B;
+    border-radius: 1rem;
+    margin: 1rem 0rem 0rem 1rem;
+    width: 13rem;
+    height: 3.5rem;
+}
+.text-inter p{
+    color: white;
+    text-align: center;
+    height: 0.5rem;
+    font-size: 14px;
+}
+
+.conteudo-inter{
+    display: flex;
+    justify-content: space-between;
+    width: 13rem;
+    align-items: center;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.button-inter button{
+    color: white;
+    background-color: #0D81EC;
+    border: none;
+    font-size: 14px;
+    padding: 0.7rem;
+    width: 6rem;
+    border-radius: 0.8rem;
+}
+
+.img-banner img{
+    width: 27rem;
+    height: 29rem;
+    margin: -2.5rem -3rem 0rem 3rem;
+}
+
+/* cards */
+.games{
+    margin: 1rem 0rem 0rem 3rem;
+    width: 48rem;
+}
+.games h1{
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 img{
+    width: 13rem;
+    height: 7.5rem;
+    border-radius: 1rem;
+}
+
+.card1 h1{
+   margin-top: 0.5rem;
+   font-size: 12px;
+   color: white;
+}
+.card1 p{
+    margin-top: -0.5rem;
+    font-size: 12px;
+    color: #575864;
+}
+
+.lista-cima-games{
+    display: flex;
+    justify-content: space-between;
+    width: 48rem;
+    align-items: center;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-between;
+    width: 5.5rem;
+}
+.lis1{
+    width: 2rem;
+    height: 5px;
+    border-radius: 3px;
+    background: #757685;
+}
+
+.lis2{
+    width: 1.5rem;
+    height: 5px;
+    border-radius: 3px;
+    background: #35363E;
+}
+
+
+.lis3{
+    width: 1.5rem;
+    height: 5px;
+    border-radius: 3px;
+    background: #35363E;
+}
+
+/* bloco 3 */
+
+.bloco3{
+    display: flex;
+    width: 48rem;
+    margin: 1rem 0rem 0rem 3rem;
+}
+.acessorios{
+    background-color: #2C2F3B;
+    border-radius: 1rem;
+    width: 14rem;
+    height: 13.5rem;
+}
+
+
+.seta-ace img{
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.titulo-ace h1{
+    font-size: 21px;
+    color: white;
+}
+
+.info-ace{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.img-acessorios{
+    display: flex;
+    justify-content: center;
+}
+.img-acessorios img {
+    margin-top: -0.5rem;
+    width: 13rem;
+    height: 9rem;
+}
+
+.meio-dentro{
+    display: flex;
+    justify-content: space-between;
+}
+.meio1{
+    display: flex;
+    flex-direction: column;
+}

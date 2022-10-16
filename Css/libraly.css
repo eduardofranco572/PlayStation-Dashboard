@@ -1,0 +1,86 @@
+.library{
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2F3B;
+    border-radius: 1rem;
+    margin-left: 3rem;
+    width: 32rem;
+    height: 13.5rem;
+}
+
+.jogo1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.conteudo1{
+    display: flex;
+}
+.conteudo-conteudo{
+    display: flex;
+}
+.textos-j{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.img-jogo1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 3.1rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.titulo-j h1{
+    font-size: 1rem;
+    color: white;
+}
+
+.descricao-j p{
+    margin-top: -0.5rem;
+    font-size: 12px;
+    color: #555763;
+    font-weight: 700;
+}
+
+.titulo-j1 h1{
+    font-size: 16px;
+    color: #737583;
+    font-weight: 700;
+}
+
+.descricao-j1 p {
+    margin-top: -0.5rem;
+    font-size: 12px;
+    color: #555763;
+    font-weight: 700;
+}
+
+.button-j button{
+    border: 2px solid #126DC3;
+    background-color: transparent;
+    color: #0E7EE6;
+    font-weight: 700;
+    width: 7rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+.button-j3 button{
+    border: 2px solid #737583;
+    background-color: transparent;
+    color: #737583;
+    font-weight: 700;
+    width: 6rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+.teste234{
+    margin-left: -3rem;
+}

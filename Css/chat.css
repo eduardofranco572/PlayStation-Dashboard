@@ -1,0 +1,252 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    background: rgb(66,68,79);
+    background: linear-gradient(180deg, rgba(66,68,79,1) -15%, rgba(26,27,31,1) 23%);
+    border-radius: 3rem;
+    margin-left: 3rem;
+    width: 29rem;
+    height: 100%;
+    border: 2px solid #2C2F3B ;
+}
+
+.info-ace1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem 2rem 1rem 2rem;
+
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3D3F49;
+    border-radius: 2rem;
+    width: 25rem;
+    height: 6.5rem;
+    position: relative;
+}
+
+.sombra{
+    display: flex;
+    flex-direction: column;
+    background-color: #23242B;
+    border-radius: 2rem;
+    margin-top: -5rem;
+    width: 22rem;
+    height: 6.5rem;
+}
+
+.parte1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-textos2 h1{
+    font-size: 21px;
+    color: white;
+}
+
+.sub-textos2 p{
+    margin-top: -0.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5F606D;
+
+}
+
+.titulo-acea h1{
+  font-size: 21px;
+  color: #5F606D;
+  font-weight: 700;
+}
+
+.textos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 6rem;
+    height: 5rem;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 5px solid #50AD6D;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #50AD6D transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+.teste2{
+    margin-top: 1.7rem;
+    margin-left: 1.6rem;
+    color: #50AD6D;
+}
+
+.titulo-parte2 h1{
+  padding: 2rem 2rem 0rem 2rem;
+  color: #5F606D;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.conteudo2{
+  display: flex;
+  padding: 1rem 2rem 0rem 2rem;
+  justify-content: space-between;
+}
+.conteudo-conteudo2{
+    display: flex;
+}
+
+.itens-salas{
+  display: flex;
+  align-items: center;
+}
+.img-mais{
+  background-color: #5F606D ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.img-mais p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: -0.2rem;
+}
+
+.img-jogo-mais img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.ae{
+  margin-left: -0.6rem;
+}
+.aba{
+  margin-left: -0.6rem;
+}
+
+
+.parte4{
+  margin-top: 2rem;
+  width: 28.5rem;
+  height: 10rem;
+  border-radius: 3rem;
+  border: 1px solid #757685;
+}
+
+.meio1-parte4{
+  background-color: #2C2F3B;
+  width: 100%;
+  height: 50%;
+  border-radius: 3rem 3rem 0rem 0rem;
+}
+
+.meio2-parte4{
+  display: flex;
+  justify-content: space-between;
+  background-color: #3D3F49;
+  width: 100%;
+  height: 50%;
+  border-radius: 0rem 0rem 3rem 3rem;
+  align-items: center;
+}
+
+
+.sub-titulo-meio1-parte4 p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5F606D;
+}
+
+.titulo-meio1-parte4 h1{
+  color: white;
+  font-size: 17px;
+  margin-top: -1rem;
+}
+
+.texto-maio1-parte4{
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.texto-maio2-parte4{
+  padding: 2rem 2rem 0rem 2rem;
+  display: flex;
+}
+.titulo-meio2-parte4 input{
+  color: white;
+  font-size: 17px;
+  margin-top: -1.5rem;
+  width: 18rem;
+  display: flex;
+  justify-content: center;
+  height: 2.5rem;
+  background-color: transparent;
+  border: none;
+}
+
+.icon1-meio1-p4 img{
+  width: 3.5rem;
+  height: 1.7rem;
+
+}
+
+
+.meio1-parte4{
+  display: flex;
+  justify-content: space-between;
+}
+.icons-meio1-parte4{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon2-meio2-p4 img{
+  width: 6.5rem;
+  height: 2.2rem;
+  cursor: pointer;
+
+}
