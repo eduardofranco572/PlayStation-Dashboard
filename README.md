@@ -4,12 +4,8 @@ de PlayStation-Dashboard, projeto realizei apenas em front end. ou seja apenas h
 
 <br>
  <div align="center">
-   Nesse projeto fiz acompanhando um curso da alura e algumas modificações minhas, um site de compartilhamentos de vídeos tipo o Youtube;
-</div>
-
- <div align="center">
     <h1>Site do Projeto:</h1>
-    https://eduardofranco572.github.io/Play/
+    
    <br>    
 </div>
 <br>
